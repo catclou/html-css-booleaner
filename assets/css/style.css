@@ -20,3 +20,36 @@ header {
     position: absolute;
     top: 10px;
 }
+
+article {
+    padding: 0 5px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+
+.author-and-date {
+    color: grey;
+    font-family: 'Playfair Display', serif;
+}
+
+.The-Booleaner {
+    text-decoration: none;
+    color: #30AFE6;
+}
+
+.img-and-caption-wrapper {
+    padding: 20px 0px 5px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.article-introduction {
+    padding: 10px 0px 10px;
+}
+
+ul {
+    margin: auto;
+}
