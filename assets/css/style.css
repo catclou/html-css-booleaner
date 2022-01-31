@@ -30,7 +30,7 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
-.author-and-date {
+.author-and-date, {
     color: grey;
     font-family: 'Playfair Display', serif;
 }
@@ -50,3 +50,32 @@ h1 {
     padding: 10px 0px 10px;
 }
 
+ul {
+    list-style-position: inside;
+}
+
+table {
+    padding: 10px 0;
+}
+
+.first-column, .second-column {
+    width: 25%;
+}
+
+.third-column {
+    width: 50%;
+}
+
+thead {
+    background-color: #30AFE6;
+    color: white;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: #b1e5f2;
+}
+
+.interesting-posts {
+    color: grey;
+    padding: 20px 5px 5px;
+}
