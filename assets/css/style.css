@@ -77,5 +77,27 @@ tbody > tr:nth-of-type(odd) {
 
 .interesting-posts {
     color: grey;
-    padding: 20px 5px 5px;
+    display: block;
+    padding: 20px 5px 10px;
+}
+
+.suggested {
+    height: 207px;
+    width: 311px;
+    position: relative;
+}
+
+#first-suggested {
+    background-image: url('../img/monitor.jpg');
+}
+
+#second-suggested {
+    background-image: url('../img/graph.jpg');
+}
+
+.suggested-title {
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
