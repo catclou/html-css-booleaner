@@ -5,3 +5,18 @@
 	box-sizing: border-box;
 }
 /* reset ends here */
+
+header {
+    height: 80px;
+    background-image: url('../img/pattern.png');
+    background-color: #4ea0ff;
+    background-size: 23%;
+    position: relative;
+}
+
+#logo {
+    height: 70px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+}
