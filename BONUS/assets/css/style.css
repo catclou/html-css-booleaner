@@ -61,6 +61,7 @@ ul {
 
 table {
     padding: 10px 0;
+    border-collapse: collapse;
 }
 
 .first-column, .second-column {
